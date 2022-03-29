@@ -1,0 +1,183 @@
+/* ---------------------------------------------------- */
+/* CSS using ID's */
+/* --------------------------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: black;
+}
+
+header {
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 100px;
+
+    border: 1px solid white;
+}
+
+#number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 50%;
+    border: 1px solid green;
+}
+
+#displayKeyNum {
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+#container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+#code,
+#key,
+#which {
+    flex-basis: 0.5;
+    flex-grow: 1;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: space-evenly;
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-right: 125px;
+
+}
+
+#displayCode {
+    margin-bottom: 50px;
+}
+#displayKey{
+    margin-bottom: 50px;
+}
+
+#displayWhich{
+    margin-bottom: 50px;
+}
+
+.Description {
+    font-size: 14px;
+}
+
+.pressedBtn {
+    font-size: 15px;
+    color: greenyellow;
+} 
+
+/* ---------------------------------------------- */
+/* CSS using classes */
+/* ---------------------------------------------- */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    color: white;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: black;
+}
+
+header {
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 100px;
+
+    border: 1px solid white;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 50%;
+    border: 1px solid green;
+}
+
+.displayKeyNum {
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.code,
+.key,
+.which {
+    flex-basis: 0.5;
+    flex-grow: 1;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: space-evenly;
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-right: 125px;
+
+}
+
+.displayCode {
+    margin-bottom: 50px;
+}
+.displayKey{
+    margin-bottom: 50px;
+}
+
+.displayWhich{
+    margin-bottom: 50px;
+}
+
+.Description {
+    font-size: 14px;
+}
+
+.pressedBtn {
+    font-size: 15px;
+    color: greenyellow;
+}  */
